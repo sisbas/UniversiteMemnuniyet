@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Üniversite Değerlendirme Grafikleri</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    select {
+      padding: 8px;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    canvas {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Üniversite Değerlendirme Grafikleri</h2>
+    <label for="universitySelect">Üniversite Seçiniz:</label>
+    <select id="universitySelect"></select>
+
+    <canvas id="chartCanvas"></canvas>
+  </div>
+
+  <script>
+    let data;
+    let chart;
+
+    async function fetchData() {
+      const response = await fetch('universite_kategori_yil_puan.json');
+      data = await response.json();
+      populateUniversityList();
+    }
+
+    function populateUniversityList() {
+      const select = document.getElementById('universitySelect');
+      Object.keys(data).forEach(university => {
+        const option = document.createElement('option');
+        option.value = university;
+        option.textContent = university;
+        select.appendChild(option);
+      });
+      select.addEventListener('change', () => renderChart(select.value));
+      renderChart(select.value);
+    }
+
+    function renderChart(university) {
+      const ctx = document.getElementById('chartCanvas').getContext('2d');
+      const categories = Object.keys(data[university]);
+      const years = [...new Set(Object.values(data[university]).flatMap(k => Object.keys(k)))].sort();
+
+      const datasets = categories.map((category, index) => {
+        const color = `hsl(${(index * 60) % 360}, 70%, 50%)`;
+        return {
+          label: category,
+          data: years.map(year => data[university][category][year] || null),
+          borderColor: color,
+          fill: false
+        };
+      });
+
+      if (chart) chart.destroy();
+
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: years,
+          datasets: datasets
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: {
+              display: true,
+              text: `${university} Değerlendirme Skorları`
+            }
+          },
+          scales: {
+            y: {
+              title: { display: true, text: 'Puan' },
+              suggestedMin: 0,
+              suggestedMax: 100
+            },
+            x: {
+              title: { display: true, text: 'Yıl' }
+            }
+          }
+        }
+      });
+    }
+
+    fetchData();
+  </script>
+</body>
+</html>
