@@ -353,6 +353,15 @@
     let compareMode = false;
     let selectedUniversities = new Set();
 
+    const CATEGORY_ORDER = [
+      "Öğrenim Deneyiminin Tatminkârlığı",
+      "Yerleşke ve Yaşamının Doyuruculuğu",
+      "Akademik Destek ve İlgi",
+      "Kurumun Yönetim ve İşleyişinden Memnuniyet",
+      "Öğrenme İmkân ve Kaynaklarının Zenginliği",
+      "Kişisel Gelişim ve Kariyer Desteği",
+      "Genel Memnuniyet"
+    ];
     // Sample data generator (fallback için)
     function generateSampleData() {
       const universities = ['İstanbul Teknik Üniversitesi', 'Boğaziçi Üniversitesi', 'Orta Doğu Teknik Üniversitesi', 'Hacettepe Üniversitesi', 'Ankara Üniversitesi', 'Koç Üniversitesi', 'Sabancı Üniversitesi'];
@@ -494,7 +503,7 @@
       const select = document.getElementById('universitySelect');
       select.innerHTML = '<option value="">Üniversite seçiniz...</option>';
       
-      Object.keys(data).sort().forEach(university => {
+      Object.keys(data).sort((a,b) => a.localeCompare(b, "tr", {sensitivity:"base"})).forEach(university => {
         const option = document.createElement('option');
         option.value = university;
         option.textContent = university;
@@ -505,26 +514,25 @@
     }
 
     function populateCategoryFilter() {
-      const select = document.getElementById('categoryFilter');
+
+      const select = document.getElementById("categoryFilter");
       const categories = new Set();
-      
       Object.values(data).forEach(uni => {
         Object.keys(uni).forEach(cat => categories.add(cat));
       });
-      
-      Array.from(categories).sort().forEach(category => {
-        const option = document.createElement('option');
-        option.value = category;
-        option.textContent = category;
-        select.appendChild(option);
+      CATEGORY_ORDER.forEach(category => {
+        if (categories.has(category)) {
+          const option = document.createElement("option");
+          option.value = category;
+          option.textContent = category;
+          select.appendChild(option);
+        }
       });
-      
-      select.addEventListener('change', () => {
-        const selectedUni = document.getElementById('universitySelect').value;
+      select.addEventListener("change", () => {
+        const selectedUni = document.getElementById("universitySelect").value;
         if (selectedUni) renderChart(selectedUni);
       });
     }
-
     function handleUniversityChange() {
       const select = document.getElementById('universitySelect');
       const university = select.value;
@@ -561,9 +569,11 @@
       const categoryFilter = document.getElementById('categoryFilter').value;
       const yearRange = document.getElementById('yearRange').value;
       
-      let categories = Object.keys(data[university]);
+      let categories = CATEGORY_ORDER.filter(cat => data[university][cat]);
       if (categoryFilter) {
         categories = categories.filter(cat => cat === categoryFilter);
+      } else {
+        categories = categories.filter(cat => cat !== "Genel Memnuniyet");
       }
       
       let years = [...new Set(Object.values(data[university]).flatMap(k => Object.keys(k)))].sort();
@@ -678,9 +688,11 @@
       Array.from(selectedUniversities).forEach((university, index) => {
         if (!data[university]) return;
         
-        let categories = Object.keys(data[university]);
+        let categories = CATEGORY_ORDER.filter(cat => data[university][cat]);
         if (categoryFilter) {
           categories = categories.filter(cat => cat === categoryFilter);
+        } else {
+          categories = categories.filter(cat => cat !== "Genel Memnuniyet");
         }
         
         const years = [...new Set(Object.values(data[university]).flatMap(k => Object.keys(k)))].sort();
@@ -759,14 +771,16 @@
       const avgScore = (allScores.reduce((a, b) => a + b, 0) / allScores.length).toFixed(1);
       const maxScore = Math.max(...allScores);
       const minScore = Math.min(...allScores);
-      const trend = calculateTrend(university, categories, years);
-      
+      const diff2025 = calculateDifference2025(university, categories);
+
       const stats = [
-        { label: 'Ortalama Puan', value: avgScore },
-        { label: 'En Yüksek Puan', value: maxScore },
-        { label: 'En Düşük Puan', value: minScore },
-        { label: 'Trend', value: trend > 0 ? `↗️ +${trend.toFixed(1)}` : trend < 0 ? `↘️ ${trend.toFixed(1)}` : '➡️ 0.0' }
+        { label: "Ortalama Puan", value: avgScore },
+        { label: "En Yüksek Puan", value: maxScore },
+        { label: "En Düşük Puan", value: minScore }
       ];
+      if (diff2025 !== null) {
+        stats.push({ label: "2025 Türkiye Farkı", value: (diff2025 > 0 ? "+" : "") + diff2025.toFixed(1) });
+      }
       
       stats.forEach(stat => {
         const card = document.createElement('div');
@@ -779,27 +793,25 @@
       });
     }
 
-    function calculateTrend(university, categories, years) {
-      if (years.length < 2) return 0;
-      
-      const firstYearScores = [];
-      const lastYearScores = [];
-      
+    function calculateDifference2025(university, categories) {
+      const year = "2025";
+      const uniScores = [];
       categories.forEach(cat => {
-        const firstScore = data[university][cat][years[0]];
-        const lastScore = data[university][cat][years[years.length - 1]];
-        if (firstScore !== null && lastScore !== null) {
-          firstYearScores.push(firstScore);
-          lastYearScores.push(lastScore);
-        }
+        const val = data[university][cat] ? data[university][cat][year] : null;
+        if (val !== null && val !== undefined) uniScores.push(val);
       });
-      
-      if (firstYearScores.length === 0 || lastYearScores.length === 0) return 0;
-      
-      const firstAvg = firstYearScores.reduce((a, b) => a + b, 0) / firstYearScores.length;
-      const lastAvg = lastYearScores.reduce((a, b) => a + b, 0) / lastYearScores.length;
-      
-      return lastAvg - firstAvg;
+      if (uniScores.length === 0) return null;
+      const uniAvg = uniScores.reduce((a,b) => a + b, 0) / uniScores.length;
+      const allScores = [];
+      Object.keys(data).forEach(uni => {
+        categories.forEach(cat => {
+          const s = data[uni][cat] ? data[uni][cat][year] : null;
+          if (s !== null && s !== undefined) allScores.push(s);
+        });
+      });
+      if (allScores.length === 0) return null;
+      const nationalAvg = allScores.reduce((a,b) => a + b, 0) / allScores.length;
+      return uniAvg - nationalAvg;
     }
 
     function toggleCompareMode() {
