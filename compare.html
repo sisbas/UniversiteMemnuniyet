@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Üniversite Karşılaştırma</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f6f8fa; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
+    select, button { padding: 8px 12px; font-size: 14px; }
+    .chart-container { max-width: 800px; margin: auto; }
+  </style>
+</head>
+<body>
+  <h1>İki Üniversite Karşılaştırması</h1>
+  <div class="controls">
+    <select id="uni1"></select>
+    <select id="uni2"></select>
+    <select id="yearSelect"></select>
+    <button onclick="renderChart()">Göster</button>
+  </div>
+  <div class="chart-container">
+    <canvas id="compareChart"></canvas>
+  </div>
+  <script>
+    let data = {};
+    async function loadData() {
+      const response = await fetch('universite_kategori_yil_puan.json');
+      data = await response.json();
+      const universities = Object.keys(data).sort();
+      const uni1 = document.getElementById('uni1');
+      const uni2 = document.getElementById('uni2');
+      universities.forEach(u => {
+        const opt1 = document.createElement('option');
+        opt1.value = opt1.textContent = u;
+        uni1.appendChild(opt1);
+        const opt2 = document.createElement('option');
+        opt2.value = opt2.textContent = u;
+        uni2.appendChild(opt2);
+      });
+      const yearSet = new Set();
+      Object.values(data[universities[0]]).forEach(cat => {
+        Object.keys(cat).forEach(y => yearSet.add(y));
+      });
+      const years = Array.from(yearSet).sort();
+      const yearSelect = document.getElementById('yearSelect');
+      years.forEach(y => {
+        const opt = document.createElement('option');
+        opt.value = opt.textContent = y;
+        yearSelect.appendChild(opt);
+      });
+    }
+
+    let chart;
+    function renderChart() {
+      const uniA = document.getElementById('uni1').value;
+      const uniB = document.getElementById('uni2').value;
+      const year = document.getElementById('yearSelect').value;
+      if (!uniA || !uniB || !year) return;
+
+      const categories = Object.keys(data[uniA]).filter(c => c !== 'Genel Memnuniyet');
+      const scoresA = categories.map(cat => data[uniA][cat][year]);
+      const scoresB = categories.map(cat => data[uniB][cat][year]);
+
+      const ctx = document.getElementById('compareChart').getContext('2d');
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: categories,
+          datasets: [
+            { label: uniA, data: scoresA, backgroundColor: 'rgba(52,152,219,0.7)' },
+            { label: uniB, data: scoresB, backgroundColor: 'rgba(231,76,60,0.7)' }
+          ]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            title: { display: true, text: year + ' Yılı Kategori Puanları', font: { size: 18 } },
+            legend: { position: 'bottom' }
+          },
+          scales: {
+            y: { suggestedMin: 0, suggestedMax: 100, title: { display: true, text: 'Puan' } }
+          }
+        }
+      });
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
