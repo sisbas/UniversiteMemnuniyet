@@ -280,7 +280,7 @@
     <div id="errorMessage" class="error" style="display: none;"></div>
 
     <div class="controls">
-      <div class="control-group">
+      <div class="control-group" id="universityGroup">
         <label for="universitySelect">🏫 Üniversite</label>
         <select id="universitySelect">
           <option value="">Üniversite seçiniz...</option>
@@ -303,7 +303,21 @@
           <option value="2010-2014">2010-2014</option>
         </select>
       </div>
-      
+
+      <div class="control-group" id="compareUni1Group" style="display:none;">
+        <label for="compareUni1">🏫 Üniversite 1</label>
+        <select id="compareUni1">
+          <option value="">Üniversite seçiniz...</option>
+        </select>
+      </div>
+
+      <div class="control-group" id="compareUni2Group" style="display:none;">
+        <label for="compareUni2">🏫 Üniversite 2</label>
+        <select id="compareUni2">
+          <option value="">Üniversite seçiniz...</option>
+        </select>
+      </div>
+
       <button id="exportBtn" onclick="exportChart()">📥 Grafiği İndir</button>
       <button id="compareBtn" onclick="toggleCompareMode()">⚖️ Karşılaştır</button>
     </div>
@@ -489,6 +503,7 @@
         }
         
         populateUniversityList();
+        populateCompareLists();
         populateCategoryFilter();
         hideElement('loadingMessage');
         
@@ -511,6 +526,33 @@
       });
       
       select.addEventListener('change', handleUniversityChange);
+    }
+
+    function populateCompareLists() {
+      const select1 = document.getElementById('compareUni1');
+      const select2 = document.getElementById('compareUni2');
+      if (!select1 || !select2) return;
+
+      const universities = Object.keys(data).sort((a,b) => a.localeCompare(b, 'tr', {sensitivity:'base'}));
+      [select1, select2].forEach(sel => {
+        sel.innerHTML = '<option value="">Üniversite seçiniz...</option>';
+        universities.forEach(u => {
+          const opt = document.createElement('option');
+          opt.value = u;
+          opt.textContent = u;
+          sel.appendChild(opt);
+        });
+        sel.addEventListener('change', handleCompareChange);
+      });
+    }
+
+    function handleCompareChange() {
+      selectedUniversities.clear();
+      const u1 = document.getElementById('compareUni1').value;
+      const u2 = document.getElementById('compareUni2').value;
+      if (u1) selectedUniversities.add(u1);
+      if (u2 && u2 !== u1) selectedUniversities.add(u2);
+      renderComparisonChart();
     }
 
     function populateCategoryFilter() {
@@ -544,12 +586,7 @@
       }
       
       if (compareMode) {
-        if (selectedUniversities.has(university)) {
-          selectedUniversities.delete(university);
-        } else {
-          selectedUniversities.add(university);
-        }
-        renderComparisonChart();
+        return;
       } else {
         renderChart(university);
       }
@@ -817,20 +854,32 @@
     function toggleCompareMode() {
       compareMode = !compareMode;
       const btn = document.getElementById('compareBtn');
-      
+      const uniGroup = document.getElementById('universityGroup');
+      const cmp1 = document.getElementById('compareUni1Group');
+      const cmp2 = document.getElementById('compareUni2Group');
+
       if (compareMode) {
         btn.textContent = '📊 Normal Mod';
         btn.style.background = 'linear-gradient(135deg, #e74c3c, #c0392b)';
         selectedUniversities.clear();
         hideElement('chartSection');
         showElement('noDataMessage');
+        if (uniGroup) hideElement('universityGroup');
+        if (cmp1) showElement('compareUni1Group');
+        if (cmp2) showElement('compareUni2Group');
       } else {
         btn.textContent = '⚖️ Karşılaştır';
         btn.style.background = 'linear-gradient(135deg, #3498db, #2980b9)';
         selectedUniversities.clear();
+        if (cmp1) hideElement('compareUni1Group');
+        if (cmp2) hideElement('compareUni2Group');
+        if (uniGroup) showElement('universityGroup');
         const selectedUni = document.getElementById('universitySelect').value;
         if (selectedUni) {
           renderChart(selectedUni);
+        } else {
+          hideElement('chartSection');
+          showElement('noDataMessage');
         }
       }
     }
