@@ -75,13 +75,25 @@
       padding: 0.5rem 1rem;
       border-radius: 0.25rem;
       border: none;
-      background: transparent;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: transform 0.2s, opacity 0.2s;
+      color: white;
+    }
+    .tab-categories {
+      background: linear-gradient(135deg, #6dd5fa, #2980b9);
+    }
+    .tab-comparison {
+      background: linear-gradient(135deg, #f6d365, #fda085);
+    }
+    .tab-button:hover {
+      transform: translateY(-2px);
+    }
+    .tab-button:not(.tab-active) {
+      opacity: 0.8;
     }
     .tab-active {
-      background: white;
-      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+      opacity: 1;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
     .chart-container {
       height: 24rem;
@@ -365,8 +377,8 @@
         <!-- Tabs -->
         <div class="tabs">
           <div class="tabs-list">
-            <button class="tab-button tab-active" data-tab="categories">Kategori Analizi</button>
-            <button class="tab-button" data-tab="comparison">Üniversite Karşılaştırması</button>
+            <button class="tab-button tab-categories tab-active" data-tab="categories">Kategori Analizi</button>
+            <button class="tab-button tab-comparison" data-tab="comparison">Üniversite Karşılaştırması</button>
           </div>
           <div id="categoriesTab" class="tab-content space-y-6">
             <!-- Category Overview -->
@@ -584,6 +596,11 @@
       });
 
       select.addEventListener('change', handleUniversityChange);
+
+      if (sortedUniversities.length > 0) {
+        select.value = sortedUniversities[0];
+        renderAllCharts(sortedUniversities[0]);
+      }
     }
     
     // Populate comparison dropdowns
