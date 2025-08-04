@@ -182,13 +182,6 @@
     "açıklama":null
   },
   {
-    "üniversite":"ÜNİVERSİTE ADI",
-    "öğrenim_düzeyi":"Öğrenim Düzeyi",
-    "program":"Ad",
-    "ücret":0,
-    "açıklama":"AÇIKLAMA"
-  },
-  {
     "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Önlisans",
     "program":"Çevre Sağlığı Ve Çevresel Risk Yönetimi Teknikerliği",
@@ -595,13 +588,6 @@
     "açıklama":null
   },
   {
-    "üniversite":"ÜNİVERSİTE ADI",
-    "öğrenim_düzeyi":"Öğrenim Düzeyi",
-    "program":"Ad",
-    "ücret":0,
-    "açıklama":"AÇIKLAMA"
-  },
-  {
     "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
     "program":"Beslenme Ve Diyetetik",
@@ -796,8 +782,5 @@
     "program":"Gastronomi Ve Mutfak Sanatları",
     "ücret":8000000,
     "açıklama":null
-  },
-  {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Uluslar
+  }
+]
