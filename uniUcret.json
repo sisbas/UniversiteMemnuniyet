@@ -103,6 +103,19 @@
     "program": "İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
     "ücret": 4760000,
     "açıklama": null
+
+    "üniversite":"ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Hazırlık Programı",
+    "program":"İngilizce Hazırlık Programı",
+    "ücret":4250000,
+    "açıklama":null
+  },
+  {
+    "üniversite":"ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
+    "ücret":4760000,
+    "açıklama":null
   },
   {
     "üniversite": "ALANYA ÜNİVERSİTESİ",
@@ -194,6 +207,12 @@
     "program": "Çocuk Gelişimi",
     "ücret": 5900000,
     "açıklama": null
+
+    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Önlisans",
+    "program":"Çevre Sağlığı Ve Çevresel Risk Yönetimi Teknikerliği",
+    "ücret":5900000,
+    "açıklama":null
   },
   {
     "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
@@ -467,6 +486,13 @@
     "program": "Yazılım Geliştirme",
     "ücret": 8900000,
     "açıklama": null
+
+    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"Uluslararası Ticaret Ve Finansman",
+    "ücret":6900000,
+    "açıklama":null
+
   },
   {
     "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
@@ -509,6 +535,12 @@
     "program": "Meslek Yüksekokulu",
     "ücret": 4992000,
     "açıklama": null
+
+    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"İnsan Ve Toplum Bilimleri Fakültesi",
+    "ücret":8000000,
+    "açıklama":"Psikoloji (Türkçe) ve Psikoloji (İngilizce) programlarının öğrenim ücreti 928.000 TL'dir."
   },
   {
     "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
@@ -551,6 +583,12 @@
     "program": "İletişim Fakültesi",
     "ücret": 9800000,
     "açıklama": null
+
+    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
+    "ücret":9800000,
+    "açıklama":"Psikoloji Programı öğrenim ücreti 1.300.000' TL dir."
   },
   {
     "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
@@ -572,6 +610,12 @@
     "program": "Sağlık Hizmetleri Meslek Yüksekokulu",
     "ücret": 5800000,
     "açıklama": null
+
+    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"Mühendislik Ve Doğa Bilimleri Fakültesi",
+    "ücret":11600000,
+    "açıklama":null
   },
   {
     "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
@@ -607,6 +651,12 @@
     "program": "Ebelik",
     "ücret": 10800000,
     "açıklama": null
+
+    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"Beslenme Ve Diyetetik",
+    "ücret":12800000,
+    "açıklama":null
   },
   {
     "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
@@ -719,6 +769,12 @@
     "program": "İç Mekan Tasarımı",
     "ücret": 6600000,
     "açıklama": null
+
+    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Önlisans",
+    "program":"Bilgisayar Destekli Tasarım Ve Animasyon",
+    "ücret":6600000,
+    "açıklama":null
   },
   {
     "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
@@ -782,5 +838,25 @@
     "program": "Gastronomi Ve Mutfak Sanatları",
     "ücret": 8000000,
     "açıklama": null
+
+    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"Sosyoloji",
+    "ücret":6800000,
+    "açıklama":null
+  },
+  {
+    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"İç Mimarlık Ve Çevre Tasarımı",
+    "ücret":8000000,
+    "açıklama":null
+  },
+  {
+    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi":"Lisans",
+    "program":"Gastronomi Ve Mutfak Sanatları",
+    "ücret":8000000,
+    "açıklama":null
   }
 ]
