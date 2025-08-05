@@ -104,9 +104,10 @@
   </div>
   <script>
     let feesData = [];
+    const DATA_URL = 'https://raw.githubusercontent.com/sisbas/UniversiteMemnuniyet/9bfa7c2060c64eb1ef5e3ba501b839ebb4526107/uniUcret.json';
     async function loadFees() {
       try {
-        const response = await fetch('./uniUcret.json');
+        const response = await fetch(DATA_URL);
         feesData = await response.json();
         populateUniversities();
       } catch (err) {
