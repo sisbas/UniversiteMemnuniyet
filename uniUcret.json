@@ -1,786 +1,786 @@
 [
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Hazırlık Programı",
-    "program":"İngilizce Hazırlık Programı",
-    "ücret":0,
-    "açıklama":"Hazırlık programlarının ücreti ilgili program ücreti ile aynıdır."
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Hazırlık Programı",
+    "program": "İngilizce Hazırlık Programı",
+    "ücret": 0,
+    "açıklama": "Hazırlık programlarının ücreti ilgili program ücreti ile aynıdır."
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Önlisans Programları",
-    "ücret":4500000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Önlisans Programları",
+    "ücret": 450000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sağlık Yönetimi",
-    "ücret":7300000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sağlık Yönetimi",
+    "ücret": 730000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sosyoloji",
-    "ücret":7300000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sosyoloji",
+    "ücret": 730000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Beslenme Ve Diyetetik",
-    "ücret":7500000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Beslenme Ve Diyetetik",
+    "ücret": 750000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Psikoloji",
-    "ücret":8750000,
-    "açıklama":"Psikoloji (İngilizce) programının öğrenim ücreti 900.000,00 TL dir."
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Psikoloji",
+    "ücret": 875000,
+    "açıklama": "Psikoloji (İngilizce) programının öğrenim ücreti 900.000,00 TL dir."
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Fizyoterapi Ve Rehabilitasyon",
-    "ücret":9000000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Fizyoterapi Ve Rehabilitasyon",
+    "ücret": 900000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hemşirelik",
-    "ücret":9300000,
-    "açıklama":"Hemşirelik (İngilizce) programının öğrenim ücreti 1.120.000,00 TL dir."
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hemşirelik",
+    "ücret": 930000,
+    "açıklama": "Hemşirelik (İngilizce) programının öğrenim ücreti 1.120.000,00 TL dir."
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Eczacılık Fakültesi",
-    "ücret":9750000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Eczacılık Fakültesi",
+    "ücret": 975000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Biyomedikal Mühendisliği",
-    "ücret":11700000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Biyomedikal Mühendisliği",
+    "ücret": 1170000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Moleküler Biyoloji Ve Genetik",
-    "ücret":12000000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Moleküler Biyoloji Ve Genetik",
+    "ücret": 1200000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Bilgisayar Mühendisliği",
-    "ücret":13500000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Bilgisayar Mühendisliği",
+    "ücret": 1350000,
+    "açıklama": null
   },
   {
-    "üniversite":"ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Tıp Fakültesi",
-    "ücret":23500000,
-    "açıklama":null
+    "üniversite": "ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Tıp Fakültesi",
+    "ücret": 2350000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Hazırlık Programı",
-    "program":"İngilizce Hazırlık Programı",
-    "ücret":4250000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Hazırlık Programı",
+    "program": "İngilizce Hazırlık Programı",
+    "ücret": 425000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
-    "ücret":4760000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
+    "ücret": 476000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Meslek Yüksekokulu",
-    "ücret":4250000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Meslek Yüksekokulu",
+    "ücret": 425000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sağlık Bilimleri Fakültesi",
-    "ücret":5270000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sağlık Bilimleri Fakültesi",
+    "ücret": 527000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Bilgisayar Mühendisliği",
-    "ücret":5000000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Bilgisayar Mühendisliği",
+    "ücret": 500000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Çizgi Film Ve Animasyon",
-    "ücret":4760000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Çizgi Film Ve Animasyon",
+    "ücret": 476000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Gastronomi Ve Mutfak Sanatları",
-    "ücret":5950000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Gastronomi Ve Mutfak Sanatları",
+    "ücret": 595000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İç Mimarlık Ve Çevre Tasarımı",
-    "ücret":5270000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İç Mimarlık Ve Çevre Tasarımı",
+    "ücret": 527000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İletişim Ve Tasarımı",
-    "ücret":4760000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İletişim Ve Tasarımı",
+    "ücret": 476000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Yönetim Bilişim Sistemleri",
-    "ücret":5000000,
-    "açıklama":null
+    "üniversite": "ALANYA ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Yönetim Bilişim Sistemleri",
+    "ücret": 500000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Ağız Ve Diş Sağlığı",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Ağız Ve Diş Sağlığı",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Ameliyathane Hizmetleri",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Ameliyathane Hizmetleri",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Anestezi",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Anestezi",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Çevre Sağlığı Ve Çevresel Risk Yönetimi Teknikerliği",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Çevre Sağlığı Ve Çevresel Risk Yönetimi Teknikerliği",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Çocuk Gelişimi",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Çocuk Gelişimi",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Eczane Hizmetleri",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Eczane Hizmetleri",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Fizyoterapi",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Fizyoterapi",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"İlk Ve Acil Yardım",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "İlk Ve Acil Yardım",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Odyometri",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Odyometri",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Optisyenlik",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Optisyenlik",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Radyoterapi",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Radyoterapi",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Tele-Sağlık Teknikerliği",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Tele-Sağlık Teknikerliği",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Tıbbi Dokümantasyon Ve Sekreterlik",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Tıbbi Dokümantasyon Ve Sekreterlik",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Tıbbi Görüntüleme Teknikleri",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Tıbbi Görüntüleme Teknikleri",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Tıbbi Laboratuvar Teknikleri",
-    "ücret":5900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Tıbbi Laboratuvar Teknikleri",
+    "ücret": 590000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Bilgisayar Mühendisliği",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Bilgisayar Mühendisliği",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Diş Hekimliği",
-    "ücret":11900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Diş Hekimliği",
+    "ücret": 1190000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Ebelik",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Ebelik",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Eczacılık Fakültesi",
-    "ücret":9900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Eczacılık Fakültesi",
+    "ücret": 990000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Ekonomi",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Ekonomi",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Elektrik-Elektronik Mühendisliği",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Elektrik-Elektronik Mühendisliği",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Endüstri Mühendisliği",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Endüstri Mühendisliği",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Gastronomi Ve Mutfak Sanatları",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Gastronomi Ve Mutfak Sanatları",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Görsel İletişim Tasarımı",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Görsel İletişim Tasarımı",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Halkla İlişkiler Ve Reklamcılık",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Halkla İlişkiler Ve Reklamcılık",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hemşirelik",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hemşirelik",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hukuk",
-    "ücret":7900000,
-    "açıklama":"Hukuk Fakültesi (UOLP KÖLN ÜNİVERSİTESİ) Bölümü için ücret 890.000 TL olarak belirlenmiştir."
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hukuk",
+    "ücret": 790000,
+    "açıklama": "Hukuk Fakültesi (UOLP KÖLN ÜNİVERSİTESİ) Bölümü için ücret 890.000 TL olarak belirlenmiştir."
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İç Mimarlık Ve Çevre Tasarımı",
-    "ücret":8900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İç Mimarlık Ve Çevre Tasarımı",
+    "ücret": 890000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İnşaat Mühendisliği",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İnşaat Mühendisliği",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İşletme",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İşletme",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Kuyumculuk Ve Mücevher Tasarımı",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Kuyumculuk Ve Mücevher Tasarımı",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Lojistik Yönetimi",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Lojistik Yönetimi",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Makine Mühendisliği",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Makine Mühendisliği",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Mimarlık",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Mimarlık",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Pazarlama",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Pazarlama",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Psikoloji",
-    "ücret":9900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Psikoloji",
+    "ücret": 990000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Radyo, Televizyon Ve Sinema",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Radyo, Televizyon Ve Sinema",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sağlık Yönetimi",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sağlık Yönetimi",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Siyaset Bilimi Ve Kamu Yönetimi",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Siyaset Bilimi Ve Kamu Yönetimi",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sosyoloji",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sosyoloji",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Tıp Fakültesi",
-    "ücret":12900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Tıp Fakültesi",
+    "ücret": 1290000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Uluslararası İlişkiler",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Uluslararası İlişkiler",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Uluslararası Ticaret Ve Finansman",
-    "ücret":6900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Uluslararası Ticaret Ve Finansman",
+    "ücret": 690000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Yazılım Geliştirme",
-    "ücret":8900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Yazılım Geliştirme",
+    "ücret": 890000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Yazılım Mühendisliği",
-    "ücret":7900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Yazılım Mühendisliği",
+    "ücret": 790000,
+    "açıklama": null
   },
   {
-    "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Yönetim Bilişim Sistemleri",
-    "ücret":8900000,
-    "açıklama":null
+    "üniversite": "ALTINBAŞ ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Yönetim Bilişim Sistemleri",
+    "ücret": 890000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Güzel Sanatlar Ve Tasarım Fakültesi",
-    "ücret":8000000,
-    "açıklama":null
+    "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Güzel Sanatlar Ve Tasarım Fakültesi",
+    "ücret": 800000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hukuk Fakültesi",
-    "ücret":9280000,
-    "açıklama":null
+    "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hukuk Fakültesi",
+    "ücret": 928000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İnsan Ve Toplum Bilimleri Fakültesi",
-    "ücret":8000000,
-    "açıklama":"Psikoloji (Türkçe) ve Psikoloji (İngilizce) programlarının öğrenim ücreti 928.000 TL'dir."
+    "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İnsan Ve Toplum Bilimleri Fakültesi",
+    "ücret": 800000,
+    "açıklama": "Psikoloji (Türkçe) ve Psikoloji (İngilizce) programlarının öğrenim ücreti 928.000 TL'dir."
   },
   {
-    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Meslek Yüksekokulu",
-    "ücret":4992000,
-    "açıklama":null
+    "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Meslek Yüksekokulu",
+    "ücret": 499200,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Mühendislik-Mimarlık Fakültesi",
-    "ücret":9280000,
-    "açıklama":"Bilişim Sistemleri Mühendisliği ve Endüstri Mühendisliği programlarının öğrenim ücreti 800.000 TL'dir."
+    "üniversite": "ANKARA BİLİM ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Mühendislik-Mimarlık Fakültesi",
+    "ücret": 928000,
+    "açıklama": "Bilişim Sistemleri Mühendisliği ve Endüstri Mühendisliği programlarının öğrenim ücreti 800.000 TL'dir."
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Diş Hekimliği Fakültesi",
-    "ücret":18500000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Diş Hekimliği Fakültesi",
+    "ücret": 1850000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Eczacılık Fakültesi",
-    "ücret":16500000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Eczacılık Fakültesi",
+    "ücret": 1650000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hukuk Fakültesi",
-    "ücret":10800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hukuk Fakültesi",
+    "ücret": 1080000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
-    "ücret":9800000,
-    "açıklama":"Psikoloji Programı öğrenim ücreti 1.300.000' TL dir."
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
+    "ücret": 980000,
+    "açıklama": "Psikoloji Programı öğrenim ücreti 1.300.000' TL dir."
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İletişim Fakültesi",
-    "ücret":9800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İletişim Fakültesi",
+    "ücret": 980000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Meslek Yüksekokulu",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Meslek Yüksekokulu",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Mühendislik Ve Doğa Bilimleri Fakültesi",
-    "ücret":11600000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Mühendislik Ve Doğa Bilimleri Fakültesi",
+    "ücret": 1160000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Sağlık Hizmetleri Meslek Yüksekokulu",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Sağlık Hizmetleri Meslek Yüksekokulu",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Siyasal Bilgiler Fakültesi",
-    "ücret":9700000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Siyasal Bilgiler Fakültesi",
+    "ücret": 970000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Tıp Fakültesi",
-    "ücret":18500000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Tıp Fakültesi",
+    "ücret": 1850000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Beslenme Ve Diyetetik",
-    "ücret":12800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Beslenme Ve Diyetetik",
+    "ücret": 1280000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Dil Ve Konuşma Terapisi",
-    "ücret":9800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Dil Ve Konuşma Terapisi",
+    "ücret": 980000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Ebelik",
-    "ücret":10800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Ebelik",
+    "ücret": 1080000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Ergoterapi",
-    "ücret":9800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Ergoterapi",
+    "ücret": 980000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Fizyoterapi Ve Rehabilitasyon",
-    "ücret":12800000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Fizyoterapi Ve Rehabilitasyon",
+    "ücret": 1280000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Gastronomi Ve Mutfak Sanatları",
-    "ücret":10600000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Gastronomi Ve Mutfak Sanatları",
+    "ücret": 1060000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Hemşirelik",
-    "ücret":11600000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Hemşirelik",
+    "ücret": 1160000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İç Mimarlık Ve Çevre Tasarımı",
-    "ücret":9900000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İç Mimarlık Ve Çevre Tasarımı",
+    "ücret": 990000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Odyoloji",
-    "ücret":9600000,
-    "açıklama":null
+    "üniversite": "ANKARA MEDİPOL ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Odyoloji",
+    "ücret": 960000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Bankacılık Ve Sigortacılık",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Bankacılık Ve Sigortacılık",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Eczane Hizmetleri",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Eczane Hizmetleri",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"İnşaat Teknolojisi",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "İnşaat Teknolojisi",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Mahkeme Büro Hizmetleri",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Mahkeme Büro Hizmetleri",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Mimari Restorasyon",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Mimari Restorasyon",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Turist Rehberliği",
-    "ücret":5800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Turist Rehberliği",
+    "ücret": 580000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Aşçılık",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Aşçılık",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Bilgisayar Destekli Tasarım Ve Animasyon",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Bilgisayar Destekli Tasarım Ve Animasyon",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Bilişim Güvenliği Teknolojisi",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Bilişim Güvenliği Teknolojisi",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"İç Mekan Tasarımı",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "İç Mekan Tasarımı",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Optisyenlik",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Optisyenlik",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Sivil Hava Ulaştırma İşletmeciliği",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Sivil Hava Ulaştırma İşletmeciliği",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Sivil Havacılık Kabin Hizmetleri",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Sivil Havacılık Kabin Hizmetleri",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Önlisans",
-    "program":"Web Tasarımı Ve Kodlama",
-    "ücret":6600000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Önlisans",
+    "program": "Web Tasarımı Ve Kodlama",
+    "ücret": 660000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İletişim Ve Tasarımı",
-    "ücret":6800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İletişim Ve Tasarımı",
+    "ücret": 680000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Radyo, Televizyon Ve Sinema",
-    "ücret":6800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Radyo, Televizyon Ve Sinema",
+    "ücret": 680000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Sosyoloji",
-    "ücret":6800000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Sosyoloji",
+    "ücret": 680000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"İç Mimarlık Ve Çevre Tasarımı",
-    "ücret":8000000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "İç Mimarlık Ve Çevre Tasarımı",
+    "ücret": 800000,
+    "açıklama": null
   },
   {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Gastronomi Ve Mutfak Sanatları",
-    "ücret":8000000,
-    "açıklama":null
+    "üniversite": "ANTALYA BELEK ÜNİVERSİTESİ",
+    "öğrenim_düzeyi": "Lisans",
+    "program": "Gastronomi Ve Mutfak Sanatları",
+    "ücret": 800000,
+    "açıklama": null
   }
 ]
