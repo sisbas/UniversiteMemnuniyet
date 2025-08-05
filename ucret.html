@@ -693,11 +693,28 @@
           
           const rawData = await response.text();
           feeData = JSON.parse(rawData);
-          
+
+          if (Array.isArray(feeData)) {
+            const transformed = {};
+            feeData.forEach(item => {
+              const uni = item['üniversite'];
+              const program = item['program'];
+              if (!transformed[uni]) transformed[uni] = {};
+              transformed[uni][program] = {
+                price: item['ücret'],
+                description: item['açıklama'] || '',
+                level: item['öğrenim_düzeyi'] || '',
+                currency: 'TL',
+                period: 'yıllık'
+              };
+            });
+            feeData = transformed;
+          }
+
           if (!feeData || typeof feeData !== 'object' || Object.keys(feeData).length === 0) {
             throw new Error('JSON dosyası boş veya geçersiz format.');
           }
-          
+
           console.log(`✅ ${Object.keys(feeData).length} üniversite ücret verisi JSON dosyasından yüklendi.`);
           showSuccessMessage(`✅ <strong>Canlı Veri:</strong> ${Object.keys(feeData).length} üniversite ücret verisi başarıyla yüklendi`);
           
