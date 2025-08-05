@@ -92,7 +92,7 @@
   },
   {
     "üniversite":"ALANYA ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Hazırlık\nProgramı",
+    "öğrenim_düzeyi":"Hazırlık Programı",
     "program":"İngilizce Hazırlık Programı",
     "ücret":4250000,
     "açıklama":null
@@ -100,7 +100,7 @@
   {
     "üniversite":"ALANYA ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
-    "program":"İktisadi, İdari Ve Sosyal Bilimler\nFakültesi",
+    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
     "ücret":4760000,
     "açıklama":null
   },
@@ -180,13 +180,6 @@
     "program":"Anestezi",
     "ücret":5900000,
     "açıklama":null
-  },
-  {
-    "üniversite":"ÜNİVERSİTE ADI",
-    "öğrenim_düzeyi":"Öğrenim Düzeyi",
-    "program":"Ad",
-    "ücret":0,
-    "açıklama":"AÇIKLAMA"
   },
   {
     "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
@@ -464,7 +457,7 @@
   {
     "üniversite":"ALTINBAŞ ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
-    "program":"Uluslararası Ticaret Ve\nFinansman",
+    "program":"Uluslararası Ticaret Ve Finansman",
     "ücret":6900000,
     "açıklama":null
   },
@@ -506,7 +499,7 @@
   {
     "üniversite":"ANKARA BİLİM ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
-    "program":"İnsan Ve Toplum Bilimleri\nFakültesi",
+    "program":"İnsan Ve Toplum Bilimleri Fakültesi",
     "ücret":8000000,
     "açıklama":"Psikoloji (Türkçe) ve Psikoloji (İngilizce) programlarının öğrenim ücreti 928.000 TL'dir."
   },
@@ -548,7 +541,7 @@
   {
     "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
-    "program":"İktisadi, İdari Ve Sosyal Bilimler\nFakültesi",
+    "program":"İktisadi, İdari Ve Sosyal Bilimler Fakültesi",
     "ücret":9800000,
     "açıklama":"Psikoloji Programı öğrenim ücreti 1.300.000' TL dir."
   },
@@ -569,7 +562,7 @@
   {
     "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Lisans",
-    "program":"Mühendislik Ve Doğa Bilimleri\nFakültesi",
+    "program":"Mühendislik Ve Doğa Bilimleri Fakültesi",
     "ücret":11600000,
     "açıklama":null
   },
@@ -593,13 +586,6 @@
     "program":"Tıp Fakültesi",
     "ücret":18500000,
     "açıklama":null
-  },
-  {
-    "üniversite":"ÜNİVERSİTE ADI",
-    "öğrenim_düzeyi":"Öğrenim Düzeyi",
-    "program":"Ad",
-    "ücret":0,
-    "açıklama":"AÇIKLAMA"
   },
   {
     "üniversite":"ANKARA MEDİPOL ÜNİVERSİTESİ",
@@ -716,7 +702,7 @@
   {
     "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
     "öğrenim_düzeyi":"Önlisans",
-    "program":"Bilgisayar Destekli Tasarım Ve\nAnimasyon",
+    "program":"Bilgisayar Destekli Tasarım Ve Animasyon",
     "ücret":6600000,
     "açıklama":null
   },
@@ -796,8 +782,5 @@
     "program":"Gastronomi Ve Mutfak Sanatları",
     "ücret":8000000,
     "açıklama":null
-  },
-  {
-    "üniversite":"ANTALYA BELEK ÜNİVERSİTESİ",
-    "öğrenim_düzeyi":"Lisans",
-    "program":"Uluslar
+  }
+]
